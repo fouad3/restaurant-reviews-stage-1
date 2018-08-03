@@ -1,0 +1,15 @@
+{
+  "name": "restaurant-reviews-stage-1",
+  "version": "1.0.0",
+  "description": "Welcome to The Restaurant Reviews, a revolutionary restaurant rating by and for people who know good food.",
+  "main": "sw.js",
+  "dependencies": {
+    "focus-visible": "^4.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

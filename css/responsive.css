@@ -1,0 +1,192 @@
+@media only screen and (max-width: 1205px) {
+
+    #restaurants-list li {
+        width: 40%;
+
+    }
+
+}
+
+@media only screen and (max-width: 880px) {
+
+    #restaurants-list li {
+        width: 80%;
+
+    }
+
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    /* ====================== Restaurant Details ====================== */
+
+    .inside {
+        border: 0;
+    }
+
+    .inside header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        border: 5px ridge #bbb;
+        border-bottom: 0;
+        height: 8.3rem;
+        z-index: 1;
+    }
+    .inside nav{
+        width: 100%;
+        height: 5.3rem;
+        border-bottom:  5px ridge #bbb;
+    }
+    .inside #breadcrumb {
+        top: 5rem;
+        width: 100%;
+        height: 3rem;
+    }
+
+    .inside #maincontent {
+        min-height: 100%;
+        margin-bottom: -6rem; /* Equivalent to footer's height */
+        padding-top   : 8.3rem;  /* Equivalent to header's height */
+        padding-bottom: 6rem; /* Equivalent to footer's height */
+        position: relative;
+        z-index: 0;
+    }
+    .inside #map-container {
+        background: blue none repeat scroll 0 0;
+        height: 15rem;
+        width: 100%;
+        border: 5px ridge #bbb;
+        border-top: 0;
+    }
+    .inside #map {
+        background-color: #ccc;
+        height: 100%;
+        width: 100%;
+        border: 0;
+    }
+    .inside #footer {
+        width: 100%;
+        border: 5px ridge #bbb;
+        height: 6rem;
+        position: relative;
+        z-index: 1;
+        text-align: center;
+    }
+    #restaurant-name {
+        color: #f18200;
+        font-family: Arial,sans-serif;
+        font-size: 1.6rem;
+        font-weight: 200;
+        letter-spacing: 0;
+        text-transform: uppercase;
+        line-height: 1.1;
+    }
+    #restaurant-img {
+        width: 90%;
+        border: 5px ridge #bbb;
+    }
+    #restaurant-address {
+        font-size: 1rem;
+        margin: 0.625rem 0;
+    }
+    #restaurant-cuisine {
+        background-color: #333;
+        color: #ddd;
+        font-size: 1rem;
+        font-weight: 300;
+        letter-spacing: 0.625rem;
+        margin: 0 0 1.25rem;
+        padding: 0.15rem 0;
+        text-align: center;
+        text-transform: uppercase;
+        width: 90%;
+        border: 5px ridge #bbb;
+    }
+    #restaurant-container, #reviews-container {
+        border-left: 5px ridge #bbb;
+        border-right: 5px ridge #bbb;
+        width: 100%;
+        margin-top: 0;
+        padding: 1rem 1.25rem 1.25rem;
+    }
+    #reviews-container {
+        padding: 1.875rem 2.5rem 5rem;
+    }
+    #reviews-container h2 {
+        color: #f58500;
+        font-size: 2rem;
+        font-weight: 300;
+        letter-spacing: -0.1rem;
+        padding-bottom: 0.2rem;
+    }
+    #reviews-list {
+        margin: 0;
+        padding: 0;
+    }
+    #reviews-list li {
+        background-color: #fff;
+        border: 5px ridge #bbb;
+        display: block;
+        list-style-type: none;
+        margin: 0 0 1.875rem;
+        overflow: hidden;
+        padding: 0 1.25rem 1.25rem;
+        width: 85%;
+    }
+    #reviews-list li p {
+        margin: 0 0 0.625rem;
+    }
+    #restaurant-hours {
+        background-color: #eee;
+
+    }
+    #restaurant-hours td {
+        color: #666;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    #restaurants-list li {
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+    #map-container{
+        height: 17rem;
+    }
+
+}
+
+@media only screen and (max-width: 469px) {
+
+    .filter-options h2 {
+        text-align: center;
+    }
+    .filter-options select {
+        margin: 0.625rem 27%;
+    }
+    nav h1 a {
+        display: table;
+        margin: 0 auto;
+    }
+
+}
+
+@media only screen and (max-width: 390px) {
+
+    #restaurants-list li h1 {
+        font-size: 1.1rem;
+    }
+    #restaurants-list p {
+        font-size: 0.8rem;
+    }
+    #restaurants-list li a {
+        font-size: 0.7rem;
+        margin-top: 0.7em ;
+    }
+    .filter-options select {
+        margin: 0.625rem 20%;
+    }
+}
