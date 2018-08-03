@@ -49,6 +49,7 @@ python -m SimpleHTTPServer 8000
 
 ### Attribution
 * [Map Box API](https://www.mapbox.com/install/)
+* [leafletjs](https://leafletjs.com/)
 * [WICG/focus-visible](https://github.com/WICG/focus-visible)
 
 
