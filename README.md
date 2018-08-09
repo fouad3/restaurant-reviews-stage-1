@@ -8,7 +8,7 @@
 - [Copyright and license](#copyright-and-license)
 
 ## Description
-provided code for a restaurant reviews website a static design that lacks accessibility and convert the design to be responsive on different sized displays and accessible for screen reader use and also begin converting this to a Progressive Web Application by caching some assets for offline use, this project is a part of the Udacity's [Mobile Web Specialist
+provided code for a restaurant reviews website a static design that lacks accessibility and converted the design to be responsive on different sized displays and accessible for screen reader use and also begin converting this to a Progressive Web Application by caching some assets for offline use, this project is a part of the Udacity's [Mobile Web Specialist
 Nanodegree](https://www.udacity.com/course/mobile-web-specialist-nanodegree--nd024).
 
 
